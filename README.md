@@ -4,8 +4,8 @@
 ## **YouTube 데이터 분석 프로젝트**
 
 ---
+![유튭](https://github.com/user-attachments/assets/114c11c1-cee2-45f2-95cd-96716b9a4a59)
 
-![스크린샷 2024-11-22 오후 1.19.20.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d3ec2a13-831d-4faf-8ac0-444a0a3a4f60/8e81eaff-9c54-4a38-804c-41068f8485d3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-11-22_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_1.19.20.png)
 
 ### **1. 프로젝트 개요**
 
