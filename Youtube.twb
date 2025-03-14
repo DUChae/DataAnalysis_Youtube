@@ -1,0 +1,2521 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0613.1930                               -->
+<workbook original-version='18.1' source-build='2024.2.0 (20242.24.0613.1930)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <Heatmap />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='youtube_channel_real_performance_analytics' inline='true' name='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='youtube_channel_real_performance_analytics' name='textscan.0cupk120qnxwwm1d65l0w0a5fqxg'>
+            <connection class='textscan' directory='/Users/du/Downloads' filename='youtube_channel_real_performance_analytics.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0cupk120qnxwwm1d65l0w0a5fqxg' name='youtube_channel_real_performance_analytics.csv' table='[youtube_channel_real_performance_analytics#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='integer' name='ID' ordinal='0' />
+            <column datatype='real' name='Video Duration' ordinal='1' />
+            <column datatype='datetime' name='Video Publish Time' ordinal='2' />
+            <column datatype='integer' name='Days Since Publish' ordinal='3' />
+            <column datatype='integer' name='Day' ordinal='4' />
+            <column datatype='integer' name='Month' ordinal='5' />
+            <column datatype='integer' name='Year' ordinal='6' />
+            <column datatype='string' name='Day of Week' ordinal='7' />
+            <column datatype='real' name='Revenue per 1000 Views (USD)' ordinal='8' />
+            <column datatype='real' name='Monetized Playbacks (Estimate)' ordinal='9' />
+            <column datatype='real' name='Playback-Based CPM (USD)' ordinal='10' />
+            <column datatype='real' name='CPM (USD)' ordinal='11' />
+            <column datatype='real' name='Ad Impressions' ordinal='12' />
+            <column datatype='real' name='Estimated AdSense Revenue (USD)' ordinal='13' />
+            <column datatype='real' name='DoubleClick Revenue (USD)' ordinal='14' />
+            <column datatype='real' name='YouTube Ads Revenue (USD)' ordinal='15' />
+            <column datatype='real' name='Watch Page Ads Revenue (USD)' ordinal='16' />
+            <column datatype='real' name='YouTube Premium (USD)' ordinal='17' />
+            <column datatype='real' name='Transaction Revenue (USD)' ordinal='18' />
+            <column datatype='real' name='Transactions' ordinal='19' />
+            <column datatype='real' name='Revenue from Transactions (USD)' ordinal='20' />
+            <column datatype='real' name='Reactions' ordinal='21' />
+            <column datatype='real' name='Chat Messages Count' ordinal='22' />
+            <column datatype='real' name='Reminders Set' ordinal='23' />
+            <column datatype='real' name='Stream Hours' ordinal='24' />
+            <column datatype='real' name='Remix Views' ordinal='25' />
+            <column datatype='real' name='Remix Count' ordinal='26' />
+            <column datatype='real' name='Subscribers from Posts' ordinal='27' />
+            <column datatype='real' name='New Comments' ordinal='28' />
+            <column datatype='real' name='Shares' ordinal='29' />
+            <column datatype='real' name='Like Rate (%)' ordinal='30' />
+            <column datatype='real' name='Dislikes' ordinal='31' />
+            <column datatype='real' name='Likes' ordinal='32' />
+            <column datatype='real' name='Unsubscribes' ordinal='33' />
+            <column datatype='real' name='New Subscribers' ordinal='34' />
+            <column datatype='real' name='Returned Items (USD)' ordinal='35' />
+            <column datatype='real' name='Unconfirmed Commissions (USD)' ordinal='36' />
+            <column datatype='real' name='Approved Commissions (USD)' ordinal='37' />
+            <column datatype='real' name='Orders' ordinal='38' />
+            <column datatype='real' name='Total Sales Volume (USD)' ordinal='39' />
+            <column datatype='real' name='End Screen Click-Through Rate (%)' ordinal='40' />
+            <column datatype='real' name='End Screen Impressions' ordinal='41' />
+            <column datatype='real' name='End Screen Clicks' ordinal='42' />
+            <column datatype='real' name='Teaser Click-Through Rate (%)' ordinal='43' />
+            <column datatype='real' name='Teaser Impressions' ordinal='44' />
+            <column datatype='real' name='Teaser Clicks' ordinal='45' />
+            <column datatype='real' name='Card Click-Through Rate (%)' ordinal='46' />
+            <column datatype='real' name='Card Impressions' ordinal='47' />
+            <column datatype='real' name='Card Clicks' ordinal='48' />
+            <column datatype='real' name='Views per Playlist Start' ordinal='49' />
+            <column datatype='real' name='Playlist Views' ordinal='50' />
+            <column datatype='real' name='Playlist Watch Time (hours)' ordinal='51' />
+            <column datatype='real' name='Clip Watch Time (hours)' ordinal='52' />
+            <column datatype='real' name='Clip Views' ordinal='53' />
+            <column datatype='real' name='YouTube Premium Watch Time (hours)' ordinal='54' />
+            <column datatype='real' name='YouTube Premium Views' ordinal='55' />
+            <column datatype='real' name='Returning Viewers' ordinal='56' />
+            <column datatype='real' name='New Viewers' ordinal='57' />
+            <column datatype='real' name='Average Views per User' ordinal='58' />
+            <column datatype='real' name='Unique Viewers' ordinal='59' />
+            <column datatype='real' name='Watched (Not Skipped) (%)' ordinal='60' />
+            <column datatype='real' name='Feed Impressions' ordinal='61' />
+            <column datatype='real' name='Average View Percentage (%)' ordinal='62' />
+            <column datatype='real' name='Average View Duration' ordinal='63' />
+            <column datatype='real' name='Views' ordinal='64' />
+            <column datatype='real' name='Watch Time (hours)' ordinal='65' />
+            <column datatype='real' name='Subscribers' ordinal='66' />
+            <column datatype='real' name='Estimated Revenue (USD)' ordinal='67' />
+            <column datatype='real' name='Impressions' ordinal='68' />
+            <column datatype='real' name='Video Thumbnail CTR (%)' ordinal='69' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0cupk120qnxwwm1d65l0w0a5fqxg' name='youtube_channel_real_performance_analytics.csv' table='[youtube_channel_real_performance_analytics#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='integer' name='ID' ordinal='0' />
+            <column datatype='real' name='Video Duration' ordinal='1' />
+            <column datatype='datetime' name='Video Publish Time' ordinal='2' />
+            <column datatype='integer' name='Days Since Publish' ordinal='3' />
+            <column datatype='integer' name='Day' ordinal='4' />
+            <column datatype='integer' name='Month' ordinal='5' />
+            <column datatype='integer' name='Year' ordinal='6' />
+            <column datatype='string' name='Day of Week' ordinal='7' />
+            <column datatype='real' name='Revenue per 1000 Views (USD)' ordinal='8' />
+            <column datatype='real' name='Monetized Playbacks (Estimate)' ordinal='9' />
+            <column datatype='real' name='Playback-Based CPM (USD)' ordinal='10' />
+            <column datatype='real' name='CPM (USD)' ordinal='11' />
+            <column datatype='real' name='Ad Impressions' ordinal='12' />
+            <column datatype='real' name='Estimated AdSense Revenue (USD)' ordinal='13' />
+            <column datatype='real' name='DoubleClick Revenue (USD)' ordinal='14' />
+            <column datatype='real' name='YouTube Ads Revenue (USD)' ordinal='15' />
+            <column datatype='real' name='Watch Page Ads Revenue (USD)' ordinal='16' />
+            <column datatype='real' name='YouTube Premium (USD)' ordinal='17' />
+            <column datatype='real' name='Transaction Revenue (USD)' ordinal='18' />
+            <column datatype='real' name='Transactions' ordinal='19' />
+            <column datatype='real' name='Revenue from Transactions (USD)' ordinal='20' />
+            <column datatype='real' name='Reactions' ordinal='21' />
+            <column datatype='real' name='Chat Messages Count' ordinal='22' />
+            <column datatype='real' name='Reminders Set' ordinal='23' />
+            <column datatype='real' name='Stream Hours' ordinal='24' />
+            <column datatype='real' name='Remix Views' ordinal='25' />
+            <column datatype='real' name='Remix Count' ordinal='26' />
+            <column datatype='real' name='Subscribers from Posts' ordinal='27' />
+            <column datatype='real' name='New Comments' ordinal='28' />
+            <column datatype='real' name='Shares' ordinal='29' />
+            <column datatype='real' name='Like Rate (%)' ordinal='30' />
+            <column datatype='real' name='Dislikes' ordinal='31' />
+            <column datatype='real' name='Likes' ordinal='32' />
+            <column datatype='real' name='Unsubscribes' ordinal='33' />
+            <column datatype='real' name='New Subscribers' ordinal='34' />
+            <column datatype='real' name='Returned Items (USD)' ordinal='35' />
+            <column datatype='real' name='Unconfirmed Commissions (USD)' ordinal='36' />
+            <column datatype='real' name='Approved Commissions (USD)' ordinal='37' />
+            <column datatype='real' name='Orders' ordinal='38' />
+            <column datatype='real' name='Total Sales Volume (USD)' ordinal='39' />
+            <column datatype='real' name='End Screen Click-Through Rate (%)' ordinal='40' />
+            <column datatype='real' name='End Screen Impressions' ordinal='41' />
+            <column datatype='real' name='End Screen Clicks' ordinal='42' />
+            <column datatype='real' name='Teaser Click-Through Rate (%)' ordinal='43' />
+            <column datatype='real' name='Teaser Impressions' ordinal='44' />
+            <column datatype='real' name='Teaser Clicks' ordinal='45' />
+            <column datatype='real' name='Card Click-Through Rate (%)' ordinal='46' />
+            <column datatype='real' name='Card Impressions' ordinal='47' />
+            <column datatype='real' name='Card Clicks' ordinal='48' />
+            <column datatype='real' name='Views per Playlist Start' ordinal='49' />
+            <column datatype='real' name='Playlist Views' ordinal='50' />
+            <column datatype='real' name='Playlist Watch Time (hours)' ordinal='51' />
+            <column datatype='real' name='Clip Watch Time (hours)' ordinal='52' />
+            <column datatype='real' name='Clip Views' ordinal='53' />
+            <column datatype='real' name='YouTube Premium Watch Time (hours)' ordinal='54' />
+            <column datatype='real' name='YouTube Premium Views' ordinal='55' />
+            <column datatype='real' name='Returning Viewers' ordinal='56' />
+            <column datatype='real' name='New Viewers' ordinal='57' />
+            <column datatype='real' name='Average Views per User' ordinal='58' />
+            <column datatype='real' name='Unique Viewers' ordinal='59' />
+            <column datatype='real' name='Watched (Not Skipped) (%)' ordinal='60' />
+            <column datatype='real' name='Feed Impressions' ordinal='61' />
+            <column datatype='real' name='Average View Percentage (%)' ordinal='62' />
+            <column datatype='real' name='Average View Duration' ordinal='63' />
+            <column datatype='real' name='Views' ordinal='64' />
+            <column datatype='real' name='Watch Time (hours)' ordinal='65' />
+            <column datatype='real' name='Subscribers' ordinal='66' />
+            <column datatype='real' name='Estimated Revenue (USD)' ordinal='67' />
+            <column datatype='real' name='Impressions' ordinal='68' />
+            <column datatype='real' name='Video Thumbnail CTR (%)' ordinal='69' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Video Duration</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Video Duration]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Video Duration</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Video Publish Time</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Video Publish Time]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Video Publish Time</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Days Since Publish</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Days Since Publish]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Days Since Publish</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Day]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Day</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Day of Week</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Day of Week]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Day of Week</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revenue per 1000 Views (USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Revenue per 1000 Views (USD)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Revenue per 1000 Views (USD)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monetized Playbacks (Estimate)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Monetized Playbacks (Estimate)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Monetized Playbacks (Estimate)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Playback-Based CPM (USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Playback-Based CPM (USD)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Playback-Based CPM (USD)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CPM (USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CPM (USD)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>CPM (USD)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ad Impressions</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ad Impressions]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Ad Impressions</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Estimated AdSense Revenue (USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Estimated AdSense Revenue (USD)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Estimated AdSense Revenue (USD)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DoubleClick Revenue (USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DoubleClick Revenue (USD)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>DoubleClick Revenue (USD)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YouTube Ads Revenue (USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[YouTube Ads Revenue (USD)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>YouTube Ads Revenue (USD)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Watch Page Ads Revenue (USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Watch Page Ads Revenue (USD)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Watch Page Ads Revenue (USD)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YouTube Premium (USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[YouTube Premium (USD)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>YouTube Premium (USD)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transaction Revenue (USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transaction Revenue (USD)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Transaction Revenue (USD)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transactions</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transactions]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Transactions</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revenue from Transactions (USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Revenue from Transactions (USD)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Revenue from Transactions (USD)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reactions</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Reactions]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Reactions</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Chat Messages Count</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Chat Messages Count]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Chat Messages Count</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reminders Set</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Reminders Set]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Reminders Set</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stream Hours</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Stream Hours]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Stream Hours</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Remix Views</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Remix Views]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Remix Views</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Remix Count</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Remix Count]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Remix Count</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Subscribers from Posts</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Subscribers from Posts]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Subscribers from Posts</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Comments</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[New Comments]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>New Comments</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shares</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Shares]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Shares</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Like Rate (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Like Rate (%)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Like Rate (%)</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dislikes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dislikes]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Dislikes</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Likes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Likes]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Likes</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unsubscribes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unsubscribes]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Unsubscribes</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Subscribers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[New Subscribers]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>New Subscribers</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Returned Items (USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Returned Items (USD)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Returned Items (USD)</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unconfirmed Commissions (USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unconfirmed Commissions (USD)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Unconfirmed Commissions (USD)</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Approved Commissions (USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Approved Commissions (USD)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Approved Commissions (USD)</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Orders</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Orders]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Orders</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Sales Volume (USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Sales Volume (USD)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Total Sales Volume (USD)</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End Screen Click-Through Rate (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[End Screen Click-Through Rate (%)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>End Screen Click-Through Rate (%)</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End Screen Impressions</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[End Screen Impressions]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>End Screen Impressions</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End Screen Clicks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[End Screen Clicks]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>End Screen Clicks</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Teaser Click-Through Rate (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Teaser Click-Through Rate (%)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Teaser Click-Through Rate (%)</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Teaser Impressions</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Teaser Impressions]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Teaser Impressions</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Teaser Clicks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Teaser Clicks]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Teaser Clicks</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Card Click-Through Rate (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Card Click-Through Rate (%)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Card Click-Through Rate (%)</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Card Impressions</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Card Impressions]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Card Impressions</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Card Clicks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Card Clicks]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Card Clicks</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Views per Playlist Start</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Views per Playlist Start]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Views per Playlist Start</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Playlist Views</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Playlist Views]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Playlist Views</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Playlist Watch Time (hours)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Playlist Watch Time (hours)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Playlist Watch Time (hours)</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clip Watch Time (hours)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Clip Watch Time (hours)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Clip Watch Time (hours)</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clip Views</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Clip Views]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Clip Views</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YouTube Premium Watch Time (hours)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[YouTube Premium Watch Time (hours)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>YouTube Premium Watch Time (hours)</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YouTube Premium Views</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[YouTube Premium Views]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>YouTube Premium Views</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Returning Viewers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Returning Viewers]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Returning Viewers</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Viewers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[New Viewers]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>New Viewers</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Views per User</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average Views per User]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Average Views per User</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unique Viewers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unique Viewers]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Unique Viewers</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Watched (Not Skipped) (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Watched (Not Skipped) (%)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Watched (Not Skipped) (%)</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Feed Impressions</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Feed Impressions]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Feed Impressions</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average View Percentage (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average View Percentage (%)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Average View Percentage (%)</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average View Duration</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average View Duration]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Average View Duration</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Views</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Views]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Views</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Watch Time (hours)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Watch Time (hours)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Watch Time (hours)</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Subscribers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Subscribers]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Subscribers</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Estimated Revenue (USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Estimated Revenue (USD)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Estimated Revenue (USD)</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Impressions</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Impressions]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Impressions</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Video Thumbnail CTR (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Video Thumbnail CTR (%)]</local-name>
+            <parent-name>[youtube_channel_real_performance_analytics.csv]</parent-name>
+            <remote-alias>Video Thumbnail CTR (%)</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Ad Impressions]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Approved Commissions (USD)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average View Duration]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average View Percentage (%)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Average Views per User]' role='measure' type='quantitative' />
+      <column datatype='real' name='[CPM (USD)]' role='measure' type='quantitative' />
+      <column caption='Cumulative Views' datatype='real' name='[Calculation_3400147365357146112]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='RUNNING_SUM(SUM([Views]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Revenue' datatype='real' name='[Calculation_3400147366443151361]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Monetized Playbacks (Estimate)]*[Revenue per 1000 Views (USD)]/1000' />
+      </column>
+      <column caption='Video Duration Range' datatype='string' name='[Calculation_3400147367136768002]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Video Duration]&lt;=300 THEN &quot;Short&quot; ELSEIF [Video Duration]&lt;=900 THEN &quot;Medium&quot; ELSE &quot;Long&quot; END' />
+      </column>
+      <column datatype='real' name='[Card Click-Through Rate (%)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Card Clicks]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Card Impressions]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Chat Messages Count]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Clip Views]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Clip Watch Time (hours)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Day]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Days Since Publish]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Dislikes]' role='measure' type='quantitative' />
+      <column datatype='real' name='[DoubleClick Revenue (USD)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[End Screen Click-Through Rate (%)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[End Screen Clicks]' role='measure' type='quantitative' />
+      <column datatype='real' name='[End Screen Impressions]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Estimated AdSense Revenue (USD)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column datatype='real' name='[Orders]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Revenue per 1000 Views (USD)]' role='measure' type='quantitative' />
+      <column caption='Video Duration(구간차원)' datatype='integer' name='[Video Duration(구간차원)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='2' formula='[Video Duration]' peg='0' size='100' />
+      </column>
+      <column datatype='real' name='[Video Duration]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column datatype='table' name='[__tableau_internal_object_id__].[youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735]' role='measure' type='quantitative' />
+      <column-instance column='[Revenue per 1000 Views (USD)]' derivation='Avg' name='[avg:Revenue per 1000 Views (USD):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Month]' derivation='None' name='[none:Month:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Ad Impressions]' derivation='Sum' name='[sum:Ad Impressions:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Approved Commissions (USD)]' derivation='Sum' name='[sum:Approved Commissions (USD):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average View Duration]' derivation='Sum' name='[sum:Average View Duration:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average View Percentage (%)]' derivation='Sum' name='[sum:Average View Percentage (%):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average Views per User]' derivation='Sum' name='[sum:Average Views per User:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[CPM (USD)]' derivation='Sum' name='[sum:CPM (USD):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Card Click-Through Rate (%)]' derivation='Sum' name='[sum:Card Click-Through Rate (%):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Card Clicks]' derivation='Sum' name='[sum:Card Clicks:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Card Impressions]' derivation='Sum' name='[sum:Card Impressions:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Chat Messages Count]' derivation='Sum' name='[sum:Chat Messages Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Clip Views]' derivation='Sum' name='[sum:Clip Views:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Clip Watch Time (hours)]' derivation='Sum' name='[sum:Clip Watch Time (hours):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Days Since Publish]' derivation='Sum' name='[sum:Days Since Publish:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Dislikes]' derivation='Sum' name='[sum:Dislikes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[DoubleClick Revenue (USD)]' derivation='Sum' name='[sum:DoubleClick Revenue (USD):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[End Screen Click-Through Rate (%)]' derivation='Sum' name='[sum:End Screen Click-Through Rate (%):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[End Screen Clicks]' derivation='Sum' name='[sum:End Screen Clicks:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[End Screen Impressions]' derivation='Sum' name='[sum:End Screen Impressions:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Estimated AdSense Revenue (USD)]' derivation='Sum' name='[sum:Estimated AdSense Revenue (USD):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Orders]' derivation='Sum' name='[sum:Orders:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Revenue per 1000 Views (USD)]' derivation='Sum' name='[sum:Revenue per 1000 Views (USD):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_3400147365357146112]' derivation='User' name='[usr:Calculation_3400147365357146112:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+      </column-instance>
+      <group caption='동작(Month,Year)' hidden='true' name='[Action (Month,Year)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Month:ok]' />
+          <groupfilter function='level-members' level='[none:Year:ok]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Card Clicks:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Orders:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Average View Duration:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Clip Watch Time (hours):qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Card Impressions:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Average View Percentage (\%):qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:End Screen Click-Through Rate (\%):qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:End Screen Impressions:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Ad Impressions:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Dislikes:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Average Views per User:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:CPM (USD):qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[usr:Calculation_3400147365357146112:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:DoubleClick Revenue (USD):qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:End Screen Clicks:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Estimated AdSense Revenue (USD):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Chat Messages Count:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Card Click-Through Rate (\%):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[avg:Revenue per 1000 Views (USD):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Revenue per 1000 Views (USD):qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Days Since Publish:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Clip Views:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Approved Commissions (USD):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='youtube_channel_real_performance_analytics.csv' id='youtube_channel_real_performance_analytics.csv_7C075D3F9F8C471BADC966849A57D735'>
+            <properties context=''>
+              <relation connection='textscan.0cupk120qnxwwm1d65l0w0a5fqxg' name='youtube_channel_real_performance_analytics.csv' table='[youtube_channel_real_performance_analytics#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+                  <column datatype='integer' name='ID' ordinal='0' />
+                  <column datatype='real' name='Video Duration' ordinal='1' />
+                  <column datatype='datetime' name='Video Publish Time' ordinal='2' />
+                  <column datatype='integer' name='Days Since Publish' ordinal='3' />
+                  <column datatype='integer' name='Day' ordinal='4' />
+                  <column datatype='integer' name='Month' ordinal='5' />
+                  <column datatype='integer' name='Year' ordinal='6' />
+                  <column datatype='string' name='Day of Week' ordinal='7' />
+                  <column datatype='real' name='Revenue per 1000 Views (USD)' ordinal='8' />
+                  <column datatype='real' name='Monetized Playbacks (Estimate)' ordinal='9' />
+                  <column datatype='real' name='Playback-Based CPM (USD)' ordinal='10' />
+                  <column datatype='real' name='CPM (USD)' ordinal='11' />
+                  <column datatype='real' name='Ad Impressions' ordinal='12' />
+                  <column datatype='real' name='Estimated AdSense Revenue (USD)' ordinal='13' />
+                  <column datatype='real' name='DoubleClick Revenue (USD)' ordinal='14' />
+                  <column datatype='real' name='YouTube Ads Revenue (USD)' ordinal='15' />
+                  <column datatype='real' name='Watch Page Ads Revenue (USD)' ordinal='16' />
+                  <column datatype='real' name='YouTube Premium (USD)' ordinal='17' />
+                  <column datatype='real' name='Transaction Revenue (USD)' ordinal='18' />
+                  <column datatype='real' name='Transactions' ordinal='19' />
+                  <column datatype='real' name='Revenue from Transactions (USD)' ordinal='20' />
+                  <column datatype='real' name='Reactions' ordinal='21' />
+                  <column datatype='real' name='Chat Messages Count' ordinal='22' />
+                  <column datatype='real' name='Reminders Set' ordinal='23' />
+                  <column datatype='real' name='Stream Hours' ordinal='24' />
+                  <column datatype='real' name='Remix Views' ordinal='25' />
+                  <column datatype='real' name='Remix Count' ordinal='26' />
+                  <column datatype='real' name='Subscribers from Posts' ordinal='27' />
+                  <column datatype='real' name='New Comments' ordinal='28' />
+                  <column datatype='real' name='Shares' ordinal='29' />
+                  <column datatype='real' name='Like Rate (%)' ordinal='30' />
+                  <column datatype='real' name='Dislikes' ordinal='31' />
+                  <column datatype='real' name='Likes' ordinal='32' />
+                  <column datatype='real' name='Unsubscribes' ordinal='33' />
+                  <column datatype='real' name='New Subscribers' ordinal='34' />
+                  <column datatype='real' name='Returned Items (USD)' ordinal='35' />
+                  <column datatype='real' name='Unconfirmed Commissions (USD)' ordinal='36' />
+                  <column datatype='real' name='Approved Commissions (USD)' ordinal='37' />
+                  <column datatype='real' name='Orders' ordinal='38' />
+                  <column datatype='real' name='Total Sales Volume (USD)' ordinal='39' />
+                  <column datatype='real' name='End Screen Click-Through Rate (%)' ordinal='40' />
+                  <column datatype='real' name='End Screen Impressions' ordinal='41' />
+                  <column datatype='real' name='End Screen Clicks' ordinal='42' />
+                  <column datatype='real' name='Teaser Click-Through Rate (%)' ordinal='43' />
+                  <column datatype='real' name='Teaser Impressions' ordinal='44' />
+                  <column datatype='real' name='Teaser Clicks' ordinal='45' />
+                  <column datatype='real' name='Card Click-Through Rate (%)' ordinal='46' />
+                  <column datatype='real' name='Card Impressions' ordinal='47' />
+                  <column datatype='real' name='Card Clicks' ordinal='48' />
+                  <column datatype='real' name='Views per Playlist Start' ordinal='49' />
+                  <column datatype='real' name='Playlist Views' ordinal='50' />
+                  <column datatype='real' name='Playlist Watch Time (hours)' ordinal='51' />
+                  <column datatype='real' name='Clip Watch Time (hours)' ordinal='52' />
+                  <column datatype='real' name='Clip Views' ordinal='53' />
+                  <column datatype='real' name='YouTube Premium Watch Time (hours)' ordinal='54' />
+                  <column datatype='real' name='YouTube Premium Views' ordinal='55' />
+                  <column datatype='real' name='Returning Viewers' ordinal='56' />
+                  <column datatype='real' name='New Viewers' ordinal='57' />
+                  <column datatype='real' name='Average Views per User' ordinal='58' />
+                  <column datatype='real' name='Unique Viewers' ordinal='59' />
+                  <column datatype='real' name='Watched (Not Skipped) (%)' ordinal='60' />
+                  <column datatype='real' name='Feed Impressions' ordinal='61' />
+                  <column datatype='real' name='Average View Percentage (%)' ordinal='62' />
+                  <column datatype='real' name='Average View Duration' ordinal='63' />
+                  <column datatype='real' name='Views' ordinal='64' />
+                  <column datatype='real' name='Watch Time (hours)' ordinal='65' />
+                  <column datatype='real' name='Subscribers' ordinal='66' />
+                  <column datatype='real' name='Estimated Revenue (USD)' ordinal='67' />
+                  <column datatype='real' name='Impressions' ordinal='68' />
+                  <column datatype='real' name='Video Thumbnail CTR (%)' ordinal='69' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='필터 1(생성됨)' name='[Action1_2E667ACBAB0E4F4EADB73FB27B6ABFA8]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='대시보드 2' type='sheet' worksheet='월별 조회수 및 수익 트렌드 분석' />
+      <command command='tsc:tsl-filter'>
+        <param name='exclude' value='동영상 게시 후 시간 경과에 따른 수익,동영상 길이와 수익성의 분포' />
+        <param name='special-fields' value='all' />
+        <param name='target' value='대시보드 2' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='동영상 게시 후 시간 경과에 따른 수익'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='youtube_channel_real_performance_analytics' name='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll'>
+            <column datatype='integer' name='[Days Since Publish]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column datatype='real' name='[Revenue per 1000 Views (USD)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Days Since Publish]' derivation='Sum' name='[sum:Days Since Publish:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Revenue per 1000 Views (USD)]' derivation='Sum' name='[sum:Revenue per 1000 Views (USD):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[Action (Month,Year)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_2E667ACBAB0E4F4EADB73FB27B6ABFA8]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Month:ok]' />
+              <groupfilter function='level-members' level='[none:Year:ok]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[Action (Month,Year)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Days Since Publish:qk]' field-type='quantitative' min='200' range-type='fixedmin' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Revenue per 1000 Views (USD):qk]</rows>
+        <cols>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Days Since Publish:qk]</cols>
+      </table>
+      <simple-id uuid='{138D04CF-A3E4-4513-9736-928308A9607D}' />
+    </worksheet>
+    <worksheet name='동영상 길이와 수익성의 분포'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='youtube_channel_real_performance_analytics' name='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll'>
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column datatype='real' name='[Revenue per 1000 Views (USD)]' role='measure' type='quantitative' />
+            <column caption='Video Duration(구간차원)' datatype='integer' name='[Video Duration(구간차원)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='2' formula='[Video Duration]' peg='0' size='100' />
+            </column>
+            <column datatype='real' name='[Video Duration]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Video Duration(구간차원)]' derivation='None' name='[none:Video Duration(구간차원):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Revenue per 1000 Views (USD)]' derivation='Sum' name='[sum:Revenue per 1000 Views (USD):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[Action (Month,Year)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_2E667ACBAB0E4F4EADB73FB27B6ABFA8]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Month:ok]' />
+              <groupfilter function='level-members' level='[none:Year:ok]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[Action (Month,Year)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Revenue per 1000 Views (USD):qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Video Duration(구간차원):ok]' />
+            </encodings>
+            <reference-line axis-column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Revenue per 1000 Views (USD):qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Revenue per 1000 Views (USD):qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.42779004573822021' />
+                <format attr='mark-color' value='#edc948' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Revenue per 1000 Views (USD):qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{75CEFD0F-E4A6-4E7E-88C1-5AC9715F0264}' />
+    </worksheet>
+    <worksheet name='동영상 길이와 수익의 상관관계'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='youtube_channel_real_performance_analytics' name='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll'>
+            <column caption='Revenue' datatype='real' name='[Calculation_3400147366443151361]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Monetized Playbacks (Estimate)]*[Revenue per 1000 Views (USD)]/1000' />
+            </column>
+            <column caption='Video Duration Range' datatype='string' name='[Calculation_3400147367136768002]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Video Duration]&lt;=300 THEN &quot;Short&quot; ELSEIF [Video Duration]&lt;=900 THEN &quot;Medium&quot; ELSE &quot;Long&quot; END' />
+            </column>
+            <column datatype='real' name='[Monetized Playbacks (Estimate)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Revenue per 1000 Views (USD)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Video Duration]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_3400147367136768002]' derivation='None' name='[none:Calculation_3400147367136768002:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_3400147366443151361]' derivation='Sum' name='[sum:Calculation_3400147366443151361:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Calculation_3400147367136768002:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Short&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;Long&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Calculation_3400147366443151361:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]' palette='orange_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Calculation_3400147366443151361:qk]</rows>
+        <cols>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Calculation_3400147367136768002:nk]</cols>
+      </table>
+      <simple-id uuid='{E3A12DBC-C114-4B13-BA88-9A8A88A904F1}' />
+    </worksheet>
+    <worksheet name='동영상 수익 상위 10개 분석'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='youtube_channel_real_performance_analytics' name='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll'>
+            <column caption='Revenue' datatype='real' name='[Calculation_3400147366443151361]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Monetized Playbacks (Estimate)]*[Revenue per 1000 Views (USD)]/1000' />
+            </column>
+            <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Monetized Playbacks (Estimate)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column datatype='real' name='[Revenue per 1000 Views (USD)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[ID]' derivation='None' name='[none:ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_3400147366443151361]' derivation='Sum' name='[sum:Calculation_3400147366443151361:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[Action (Month,Year)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_2E667ACBAB0E4F4EADB73FB27B6ABFA8]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Month:ok]' />
+              <groupfilter function='level-members' level='[none:Year:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:ID:ok]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Calculation_3400147366443151361])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:ID:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:ID:ok]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Calculation_3400147366443151361:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:ID:ok]</column>
+            <column>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[Action (Month,Year)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#a7acad' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Calculation_3400147366443151361:qk]</rows>
+        <cols>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:ID:ok]</cols>
+      </table>
+      <simple-id uuid='{A6E494D7-588B-49CF-9CAC-FB579CA81710}' />
+    </worksheet>
+    <worksheet name='발행 날짜와 조회수에 따른 수익'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='youtube_channel_real_performance_analytics' name='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll'>
+            <column caption='Revenue' datatype='real' name='[Calculation_3400147366443151361]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Monetized Playbacks (Estimate)]*[Revenue per 1000 Views (USD)]/1000' />
+            </column>
+            <column datatype='real' name='[Monetized Playbacks (Estimate)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column datatype='real' name='[Revenue per 1000 Views (USD)]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Video Publish Time]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_3400147366443151361]' derivation='Sum' name='[sum:Calculation_3400147366443151361:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Revenue per 1000 Views (USD)]' derivation='Sum' name='[sum:Revenue per 1000 Views (USD):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Video Publish Time]' derivation='Year' name='[yr:Video Publish Time:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[Action (Month,Year)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_2E667ACBAB0E4F4EADB73FB27B6ABFA8]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Month:ok]' />
+              <groupfilter function='level-members' level='[none:Year:ok]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[Action (Month,Year)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Revenue per 1000 Views (USD):qk]' palette='sunrise_sunset_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Calculation_3400147366443151361:qk]' />
+              <text column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[yr:Video Publish Time:ok]' />
+              <color column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Revenue per 1000 Views (USD):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2ED29DD7-4C42-4D4E-ACCF-E75099898E5D}' />
+    </worksheet>
+    <worksheet name='발행 요일과 수익성 분석'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='youtube_channel_real_performance_analytics' name='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll'>
+            <column datatype='string' name='[Day of Week]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column datatype='real' name='[Revenue per 1000 Views (USD)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Day of Week]' derivation='None' name='[none:Day of Week:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Revenue per 1000 Views (USD)]' derivation='Sum' name='[sum:Revenue per 1000 Views (USD):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[Action (Month,Year)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_2E667ACBAB0E4F4EADB73FB27B6ABFA8]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Month:ok]' />
+              <groupfilter function='level-members' level='[none:Year:ok]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[Action (Month,Year)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]' palette='purple_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Revenue per 1000 Views (USD):qk]</rows>
+        <cols>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Day of Week:nk]</cols>
+      </table>
+      <simple-id uuid='{9AE7C795-0099-41E4-8D44-553F09D23BE7}' />
+    </worksheet>
+    <worksheet name='발행 요일과 수익의 집중도'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='youtube_channel_real_performance_analytics' name='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll'>
+            <column caption='Revenue' datatype='real' name='[Calculation_3400147366443151361]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Monetized Playbacks (Estimate)]*[Revenue per 1000 Views (USD)]/1000' />
+            </column>
+            <column datatype='string' name='[Day of Week]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Monetized Playbacks (Estimate)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column datatype='real' name='[Revenue per 1000 Views (USD)]' role='measure' type='quantitative' />
+            <column-instance column='[Day of Week]' derivation='None' name='[none:Day of Week:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_3400147366443151361]' derivation='Sum' name='[sum:Calculation_3400147366443151361:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Heatmap' />
+            <encodings>
+              <color column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Calculation_3400147366443151361:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Month:qk]</rows>
+        <cols>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Day of Week:nk]</cols>
+      </table>
+      <simple-id uuid='{DE9E876C-73FA-4D1D-9AA3-E0490C9FBE00}' />
+    </worksheet>
+    <worksheet name='월별 조회수 및 수익 트렌드 분석'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='youtube_channel_real_performance_analytics' name='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aqzxxs0pf3xtv1g5ugt21hzpxll'>
+            <column caption='Revenue' datatype='real' name='[Calculation_3400147366443151361]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Monetized Playbacks (Estimate)]*[Revenue per 1000 Views (USD)]/1000' />
+            </column>
+            <column datatype='real' name='[Monetized Playbacks (Estimate)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column datatype='real' name='[Revenue per 1000 Views (USD)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_3400147366443151361]' derivation='Sum' name='[sum:Calculation_3400147366443151361:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]' palette='red_blue_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Calculation_3400147366443151361:qk]</rows>
+        <cols>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Month:qk]</cols>
+      </table>
+      <simple-id uuid='{1D249D44-1020-4498-A1BA-BC28C122E251}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='대시보드 2'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98814' id='9' param='horz' type-v2='layout-flow' w='98842' x='579' y='593'>
+            <zone h='98814' id='7' type-v2='layout-basic' w='87265' x='579' y='593'>
+              <zone h='28858' id='5' name='동영상 길이와 수익성의 분포' w='27311' x='579' y='70549'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='41098' id='6' name='월별 조회수 및 수익 트렌드 분석' w='87265' x='579' y='593'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='28858' id='11' name='동영상 수익 상위 10개 분석' w='32640' x='55204' y='70549'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='28858' id='12' name='발행 날짜와 조회수에 따른 수익' w='21990' x='579' y='41691'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='28858' id='14' name='발행 요일과 수익성 분석' w='25398' x='62446' y='41691'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='28858' id='15' name='동영상 게시 후 시간 경과에 따른 수익' w='27314' x='27890' y='70549'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='28858' id='16' name='동영상 길이와 수익의 상관관계' w='17648' x='22569' y='41691'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='28858' id='17' name='발행 요일과 수익의 집중도' w='22229' x='40217' y='41691'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98814' id='8' is-fixed='true' param='vert' type-v2='layout-flow' w='11577' x='87844' y='593'>
+              <zone h='4821' id='10' name='월별 조회수 및 수익 트렌드 분석' pane-specification-id='0' param='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]' type-v2='color' w='11577' x='87844' y='593'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='4821' id='13' name='발행 날짜와 조회수에 따른 수익' pane-specification-id='0' param='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Revenue per 1000 Views (USD):qk]' type-v2='color' w='11577' x='87844' y='5414'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2050' minheight='2050' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98814' id='18' param='vert' type-v2='layout-flow' w='98842' x='579' y='593'>
+                <zone fixed-size='280' h='41098' id='6' is-fixed='true' name='월별 조회수 및 수익 트렌드 분석' w='87265' x='579' y='593'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4821' id='10' name='월별 조회수 및 수익 트렌드 분석' pane-specification-id='0' param='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]' type-v2='color' w='11577' x='87844' y='593'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='222' h='28858' id='12' is-fixed='true' name='발행 날짜와 조회수에 따른 수익' w='21990' x='579' y='41691'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4821' id='13' name='발행 날짜와 조회수에 따른 수익' pane-specification-id='0' param='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Revenue per 1000 Views (USD):qk]' type-v2='color' w='11577' x='87844' y='5414'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='222' h='28858' id='16' is-fixed='true' name='동영상 길이와 수익의 상관관계' w='17648' x='22569' y='41691'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='222' h='28858' id='17' is-fixed='true' name='발행 요일과 수익의 집중도' w='22229' x='40217' y='41691'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='222' h='28858' id='14' is-fixed='true' name='발행 요일과 수익성 분석' w='25398' x='62446' y='41691'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='223' h='28858' id='5' is-fixed='true' name='동영상 길이와 수익성의 분포' w='27311' x='579' y='70549'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='223' h='28858' id='15' is-fixed='true' name='동영상 게시 후 시간 경과에 따른 수익' w='27314' x='27890' y='70549'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='223' h='28858' id='11' is-fixed='true' name='동영상 수익 상위 10개 분석' w='32640' x='55204' y='70549'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{F7D578A0-8769-437E-9D1F-8404C8C33670}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' maximized='true' name='대시보드 2'>
+      <viewpoints>
+        <viewpoint name='동영상 게시 후 시간 경과에 따른 수익'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='동영상 길이와 수익성의 분포'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='동영상 길이와 수익의 상관관계'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='동영상 수익 상위 10개 분석'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='발행 날짜와 조회수에 따른 수익' />
+        <viewpoint name='발행 요일과 수익성 분석'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='발행 요일과 수익의 집중도'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='월별 조회수 및 수익 트렌드 분석'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{A8544B76-7B3B-430A-9EB8-32ED32032159}' />
+    </window>
+    <window class='worksheet' hidden='true' name='동영상 게시 후 시간 경과에 따른 수익'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <node-selection select-tuples='false'>
+            <oriented-node-reference orientation='horizontal'>
+              <node-reference>
+                <axis>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Days Since Publish:qk]</axis>
+              </node-reference>
+              <page-reference />
+            </oriented-node-reference>
+          </node-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6964C674-6BFB-4E5E-8C8E-22833A0CE68C}' />
+    </window>
+    <window class='worksheet' hidden='true' name='동영상 길이와 수익성의 분포'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Video Duration(구간차원):ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{52912DCA-0EAA-4738-AE78-0E3AFE210ACB}' />
+    </window>
+    <window class='worksheet' hidden='true' name='동영상 길이와 수익의 상관관계'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Calculation_3400147367136768002:nk]</field>
+            <field>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Video Duration(구간차원):ok]</field>
+            <field>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{941185D0-A3CB-4605-947A-E73CC3F0A5A7}' />
+    </window>
+    <window class='worksheet' hidden='true' name='동영상 수익 상위 10개 분석'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2849A614-87CB-452A-AC50-8D3B2F6CDC51}' />
+    </window>
+    <window class='worksheet' hidden='true' name='발행 날짜와 조회수에 따른 수익'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Revenue per 1000 Views (USD):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[sum:Revenue per 1000 Views (USD):qk]</field>
+            <field>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[yr:Video Publish Time:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{761C612A-002C-443A-A5E4-3F7805C95343}' />
+    </window>
+    <window class='worksheet' hidden='true' name='발행 요일과 수익성 분석'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{EC684FA0-CD7D-4A7D-8A0F-F83C76EFCBA9}' />
+    </window>
+    <window class='worksheet' hidden='true' name='발행 요일과 수익의 집중도'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{606EDDE4-ABEC-45FD-AB6E-85963F499041}' />
+    </window>
+    <window class='worksheet' hidden='true' name='월별 조회수 및 수익 트렌드 분석'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Month:qk]</field>
+            <field>[federated.0aqzxxs0pf3xtv1g5ugt21hzpxll].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D2D2008C-0F69-485C-A09A-75065FF7E62D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='대시보드 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
